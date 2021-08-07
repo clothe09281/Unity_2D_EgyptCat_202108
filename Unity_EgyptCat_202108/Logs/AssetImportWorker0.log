@@ -15,11 +15,11 @@ D:/jia_hui/Unity_EgyptCat/Unity_2D_EgyptCat_202108/Unity_EgyptCat_202108
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58329
+54608
 Successfully changed project path to: D:/jia_hui/Unity_EgyptCat/Unity_2D_EgyptCat_202108/Unity_EgyptCat_202108
 D:/jia_hui/Unity_EgyptCat/Unity_2D_EgyptCat_202108/Unity_EgyptCat_202108
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 254.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 107.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -37,17 +37,173 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.163072 seconds.
+Registered in 0.001492 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 100.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 141.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.985 seconds
+- Completed reload, in  1.496 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.618714 seconds.
+Registered in 0.003310 seconds.
 Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2555 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 118.2 MB.
+System memory in use after: 118.3 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2995.
+Total: 3.487753 ms (FindLiveObjects: 0.533403 ms CreateObjectMapping: 0.155149 ms MarkObjects: 2.635674 ms  DeleteObjects: 0.161665 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/拼接素材/Tileset_Alien_CeilingCornerOuterLeft.asset
+  artifactKey: Guid(baec22cf56a4fad46addb10442f2b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_CeilingCornerOuterLeft.asset using Guid(baec22cf56a4fad46addb10442f2b3ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a48b922c126f0bf42aae4adcd9bd31') in 0.268228 seconds 
+  Import took 0.281101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling6.asset
+  artifactKey: Guid(71be1f2dc034b4b4a96d0a54c308d314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling6.asset using Guid(71be1f2dc034b4b4a96d0a54c308d314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eefd3cc9b01cd414ba5fde8c6f83923a') in 0.113806 seconds 
+  Import took 0.133071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling2.asset
+  artifactKey: Guid(8a410c6d7ddac9448b67ffabb7ea9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling2.asset using Guid(8a410c6d7ddac9448b67ffabb7ea9b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efae686f2df71b374df2fedcb392a881') in 0.093827 seconds 
+  Import took 0.107845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling3.asset
+  artifactKey: Guid(bae308c2bc65702459fbe9e341efceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling3.asset using Guid(bae308c2bc65702459fbe9e341efceb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc92f6f9e31196dddfe376c1070bf40d') in 0.096793 seconds 
+  Import took 0.110766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling4.asset
+  artifactKey: Guid(ac96061192d832248a576b2c4def10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling4.asset using Guid(ac96061192d832248a576b2c4def10da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177b1631fff4c622f1b0dbef5fb8628d') in 0.095680 seconds 
+  Import took 0.109006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/拼接素材/Tileset_Alien_CeilingCornerOuterRight.asset
+  artifactKey: Guid(096049002363c824fa908134453fcb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_CeilingCornerOuterRight.asset using Guid(096049002363c824fa908134453fcb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe49a30181c39bff40304a5e27f7253e') in 0.096584 seconds 
+  Import took 0.109364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/拼接素材/Tileset_Alien_89.asset
+  artifactKey: Guid(17648d4df168881438b58c295662a3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_89.asset using Guid(17648d4df168881438b58c295662a3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3d6158d6d41416b1024b444fa35b04') in 0.090659 seconds 
+  Import took 0.102895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/拼接素材/Tileset_Alien_80.asset
+  artifactKey: Guid(52c0742842e4cea4c9eb9618afeaf9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_80.asset using Guid(52c0742842e4cea4c9eb9618afeaf9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eef4f4731195c37fa5cbf189fcfa37') in 0.096086 seconds 
+  Import took 0.109429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/拼接素材/Tileset_Alien_CeilingCornerFloorRight.asset
+  artifactKey: Guid(8d73e3666eb519249b19f32c8ffc7cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_CeilingCornerFloorRight.asset using Guid(8d73e3666eb519249b19f32c8ffc7cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f917202101443dff2b16bb4c73b6e1') in 0.104098 seconds 
+  Import took 0.116755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling5.asset
+  artifactKey: Guid(087a3433df8dff54f9d3602c49f6aec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling5.asset using Guid(087a3433df8dff54f9d3602c49f6aec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb449ca170304ced7b2e88744d79e9') in 0.091842 seconds 
+  Import took 0.104034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling1.asset
+  artifactKey: Guid(10ab508b45641e447870d02910e108cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling1.asset using Guid(10ab508b45641e447870d02910e108cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a4fd02da84a9661e2c27833d77e35b') in 0.093305 seconds 
+  Import took 0.107504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/拼接素材/Tileset_Alien_CeilingCornerFloorLeft.asset
+  artifactKey: Guid(a1b7f7389cfe174458c3df7ffa9e05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_CeilingCornerFloorLeft.asset using Guid(a1b7f7389cfe174458c3df7ffa9e05cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d74b947e1f2b56a1bb205e629f944') in 0.107916 seconds 
+  Import took 0.120536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/拼接素材/Tileset_Alien_Ceiling0.asset
+  artifactKey: Guid(df5a4576bcd201e469200054c4f504c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/拼接素材/Tileset_Alien_Ceiling0.asset using Guid(df5a4576bcd201e469200054c4f504c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a1014e82244577473b81ab50043d9f') in 0.100766 seconds 
+  Import took 0.113883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1559.244569 seconds.
+  path: Assets/場景/打王場景.unity
+  artifactKey: Guid(9b976d5d94d5e2b4dad94f2d49657499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/打王場景.unity using Guid(9b976d5d94d5e2b4dad94f2d49657499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f09558c11b2d20c1917ea43412eacc') in 0.013665 seconds 
+  Import took 0.021817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005938 seconds.
+  path: Assets/場景/打王場景.unity
+  artifactKey: Guid(9b976d5d94d5e2b4dad94f2d49657499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/打王場景.unity using Guid(9b976d5d94d5e2b4dad94f2d49657499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f09558c11b2d20c1917ea43412eacc') in 0.004413 seconds 
+  Import took 0.012527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.545463 seconds.
+  path: Assets/場景/遊戲場景.unity
+  artifactKey: Guid(aabf51d4eb54ebc43b2d4a0514756d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/場景/遊戲場景.unity using Guid(aabf51d4eb54ebc43b2d4a0514756d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ca0d8ab556d8ac78509afb7a206125') in 0.010701 seconds 
+  Import took 0.018527 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
